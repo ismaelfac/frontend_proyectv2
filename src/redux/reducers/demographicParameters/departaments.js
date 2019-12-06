@@ -1,8 +1,8 @@
 import { handleActions } from "redux-actions";
-import { ACTION_1, ACTION_2 } from "../actions/actions";
+import { ACTION_1, ACTION_2 } from "../../actions/actions";
 
 function DepartamentStore() {
-    return 'Departamento Creado'
+    return [1,2,3];
 }
 
 export default handleActions({
